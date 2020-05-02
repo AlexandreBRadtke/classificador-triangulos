@@ -1,6 +1,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="classificador.css">
     <title>Classificador de triangulos</title>
     <meta charset="utf-8">
     <style>
@@ -24,9 +25,9 @@
 
 <body>
     <h1>CLASSIFICADOR TRIÂNGULOS</h1>
-    <input type="lado A" placeholder="Digite o tamanho do lado A">
-    <input type="lado B" placeholder="Digite o tamanho do lado B">
-    <input type="lado C" placeholder="Digite o tamanho do lado C">
+    <input type="lado A" placeholder="Digite o tamanho do lado A" required="required" name="numbers" pattern="[0-9 ,]+$"/>
+    <input type="lado B" placeholder="Digite o tamanho do lado B" required="required" name="numbers" pattern="[0-9 ,]+$"/>
+    <input type="lado C" placeholder="Digite o tamanho do lado C" required="required" name="numbers" pattern="[0-9 ,]+$"/>
     <button>Classificar</button>
 </body>
 
