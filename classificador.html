@@ -1,34 +1,42 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="classificador.css">
-    <title>Classificador de triangulos</title>
+    <link rel="stylesheet" href="lixo HTML.css">
     <meta charset="utf-8">
-    <style>
-        h1{
-            text-align: center;
-        }
-        input {
-            display: block;
-            width: 25%;
-            margin: 10px auto 10px auto;
-        }
-        button{
-            display: block;
-            width: 25%;
-            margin: 10px auto 10px auto;
-            background-color: indigo;
-            color: white;
-        }
-    </style>
+    <title>Classificador de Triangulos</title>
 </head>
 
 <body>
-    <h1>CLASSIFICADOR TRIÂNGULOS</h1>
-    <input type="lado A" placeholder="Digite o tamanho do lado A" required="required" name="numbers" pattern="[0-9 ,]+$"/>
-    <input type="lado B" placeholder="Digite o tamanho do lado B" required="required" name="numbers" pattern="[0-9 ,]+$"/>
-    <input type="lado C" placeholder="Digite o tamanho do lado C" required="required" name="numbers" pattern="[0-9 ,]+$"/>
-    <button>Classificar</button>
+    <div class="box">
+        <div class="boxTituloH1">
+            <h1>CLASSIFICADOR DE TRIÂNGULOS</h1>
+        </div>
+
+        <div class="valores">
+            <div class="input_A">
+                <label for="number">Lado A</label>
+                <input type="text" placeholder="DIGITE O TAMANHO" required=required name="number" pattern="[0-9 , .}+$">
+            </div>
+            <div class="input_B">
+                <label for="number">Lado B</label>
+                <input type="text" placeholder="DIGITE O TAMANHO" required=required name="number" pattern="[0-9 , .}+$">
+            </div>
+            <div class="input_C">
+                <label for="number">Lado C</label>
+                <input type="text" placeholder="DIGITE O TAMANHO" required=required name="number" pattern="[0-9 , .}+$">
+            </div>
+        </div>
+        <button>Classificar</button>
+        <div class="resultado">
+            <div class="caixaVerde">
+                <h3>Resultado:</h3>
+
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>
